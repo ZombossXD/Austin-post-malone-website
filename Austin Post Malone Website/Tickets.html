@@ -11,7 +11,8 @@
     <section class="sub-header">
         <nav>
            <a href="index.html"><img src="logo.png"></a>
-           <div class="nav-links">
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home Page</a></li>
                     <li><a href="Tickets.html">Tickets/Concerts</a></li>
@@ -23,6 +24,7 @@
                     <li><a href="Contact.html">Contact Infomation</a></li>                     
                 </ul>               
            </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <h1>Tickets/Concerts</h1>
 
@@ -84,7 +86,17 @@
 
 
 
+<script>
+        var navLinks = document.getElementById('navLinks');
 
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 
 
 
