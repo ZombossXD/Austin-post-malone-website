@@ -359,16 +359,29 @@ h3
     color: #fff;
 }
 
-.sub-album
+.sub-albums
 {
     height: 200vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(albums.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(albumspost.png);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
+
+.sub-video
+{
+    height: 200vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(post-1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+
 
 
 .exspect
